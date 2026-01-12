@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Blood_drop_icon.svg" alt="Blood Donation Logo" width="120" />
+  <!-- logo removed per request -->
 </p>
 
 # RIFT-26

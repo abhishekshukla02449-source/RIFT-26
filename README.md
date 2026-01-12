@@ -1,5 +1,5 @@
 <p align="center">
-  <!-- logo removed per request -->
+  <img src="static/images/logo.png" alt="Blood Donation Logo" width="120" />
 </p>
 
 # RIFT-26

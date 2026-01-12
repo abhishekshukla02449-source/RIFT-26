@@ -15,6 +15,10 @@ Our app provides a searchable donor directory by city and blood group, making it
 - Backend: Python (Flask)
 - Database: SQLite (SQLAlchemy ORM)
 - Frontend: HTML, CSS (Jinja templates)
+- ## Roadmap
+- Add donor verification (OTP/email)
+- Availability toggle & last donation date
+- Deploy on Render/Heroku for live demo
 - ## TEAM
 - ABHISHEK SHUKLA - BACKEND AND DOCUMENTATION
 - ABDUL SAMAD - FRONTEND

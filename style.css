@@ -26,3 +26,9 @@ button {
 button:hover {
   background: #800000;
 }
+/* Logo styling */
+.logo {
+  width: 200px;       /* adjust size */
+  display: block;     /* makes it behave like a block element */
+  margin: 0 auto;     /* centers the logo horizontally */
+}

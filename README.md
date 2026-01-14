@@ -1,6 +1,7 @@
 
 
 # RIFT-26
+![Logo](assets/logo.png)
 
 # Blood Donor Network
 

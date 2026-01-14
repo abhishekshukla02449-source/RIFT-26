@@ -2,7 +2,7 @@
 
 # RIFT-26
 
-![Logo](https://raw.githubusercontent.com/abhishekshukla02449-source/RIFT-26/main/logo.png)
+RIFT-26/static/images/logo.png
 
 
 # Blood Donor Network

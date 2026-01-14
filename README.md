@@ -6,7 +6,8 @@
 # Blood Donor Network
 
 A simple Flask web app to connect blood donors with people in need.
-![Logo](static/logo.png)
+
+![Logo](static/images/logo.png)
 
 
 ## Problem

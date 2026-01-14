@@ -2,7 +2,7 @@
 
 # RIFT-26
 
-![Logo](static/images/logo.png)
+![Logo](static/images/logo.png?raw=true)
 
 
 # Blood Donor Network

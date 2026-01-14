@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blood Donation Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Blood Donation Portal</h1>
+    <nav>
+      <a href="#register">Register</a>
+      <a href="#info">Why Donate?</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="register">
+    <h2>Register as a Donor</h2>
+    <form id="donorForm">
+      <label>Name: <input type="text" required></label>
+      <label>Blood Group: 
+        <select required>
+          <option>A+</option><option>A-</option>
+          <option>B+</option><option>B-</option>
+          <option>O+</option><option>O-</option>
+          <option>AB+</option><option>AB-</option>
+        </select>
+      </label>
+      <label>Contact: <input type="tel" required></label>
+      <button type="submit">Submit</button>
+    </form>
+    <p id="confirmation"></p>
+  </section>
+
+  <section id="info">
+    <h2>Why Donate Blood?</h2>
+    <p>Every donation can save up to three lives. Join the movement today!</p>
+  </section>
+
+  <footer id="contact">
+    <p>Contact us at: support@bloodportal.com</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+}
+header {
+  background: #b30000;
+  color: white;
+  padding: 1rem;
+}
+nav a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+}
+section {
+  padding: 2rem;
+}
+button {
+  background: #b30000;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+button:hover {
+  background: #800000;
+}
+document.getElementById("donorForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+  document.getElementById("confirmation").textContent =
+    "✅ Thank you for registering as a donor!";
+});

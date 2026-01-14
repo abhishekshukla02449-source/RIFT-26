@@ -21,11 +21,18 @@ Finding compatible blood donors quickly during emergencies is difficult.
 Our app provides a searchable donor directory by city and blood group, making it faster to connect patients with donors.
 
 ## Features
+- 🩸 Easy donor registration
+- 🔍 Quick search for blood groups
+- 📍 Location-based matching
+- 📱 Mobile-friendly design
+  
+## Installation
 
-- Donor registration (name, phone, city, blood group)
-- Search donors by city and blood group
-- Simple, responsive interface
-- SQLite database for quick storage
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/abhishekshukla02449-source/RIFT-26.git
+
+   cd RIFT-26
 
 ## Tech Stack
 
